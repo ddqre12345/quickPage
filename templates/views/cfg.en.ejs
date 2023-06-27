@@ -1,0 +1,7 @@
+const commonLocales = require('@assets/locale/en.json');
+const localLocales = require('./locales/en.json');
+
+export default {
+    ...commonLocales,
+    <%= moduleName %>: { ...localLocales },
+};

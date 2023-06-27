@@ -1,0 +1,15 @@
+import * as React from 'react';
+import { injectIntl } from 'react-intl';
+import { withRouter } from 'react-router-dom';
+import { <%= moduleName %>Props } from './interface';
+
+class <%= moduleName %> extends React.Component<<%= moduleName %>Props> {
+    componentDidMount() {
+    }
+    componentWillUnmount() {
+    }
+    render() {
+    }
+}
+
+export default withRouter(injectIntl(<%= moduleName %>));
