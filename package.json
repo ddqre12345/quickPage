@@ -1,8 +1,8 @@
 {
-  "name": "quick-Page",
+  "name": "quick-page",
   "displayName": "quickPage",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "killer12345",
   "repository": {
     "type": "git",
