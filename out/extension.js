@@ -9,7 +9,7 @@ const VIEWS_TEMPLATE_FILES = [
     { templateName: 'cfg.en.ejs', outputFile: 'cfg.en.ts' },
     { templateName: 'cfg.zh.ejs', outputFile: 'cfg.zh.ts' },
     { templateName: 'interface.ejs', outputFile: 'interface.ts' },
-    { templateName: 'index.ejs', outputFile: 'index.ts' },
+    { templateName: 'index.ejs', outputFile: 'index.tsx' },
 ];
 const MODELS_TEMPLATE_FILES = [
     { templateName: 'index.ejs', outputFile: 'index.ts' },
